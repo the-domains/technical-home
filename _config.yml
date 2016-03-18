@@ -1,3 +1,4 @@
+favicon: null
 name: Technical Home
 opengraph:
   image: null
@@ -9,32 +10,31 @@ collections:
       number: 15
       paginate: true
       navigable: true
+    permalink:
+      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
-    permalink:
-      path: '/:title/'
 purpose: []
 color:
   saturation: 0.9258395
   brandStrength: 1
-  lightness: 0.4636194
+  rhythmicContrast: 1
   brandColors:
     - '#FFFFFF'
     - '#EC1C24'
     - '#4C4C4C'
     - '#A19C98'
     - '#FA999A'
-  rhythmicContrast: 1
+  lightness: 0.4636194
 typography_spectrum: 0.9402985
 cta:
   bucket: null
   version: null
   domain: null
+layout_spectrum: 0.838153
 analytics:
   twitter: null
   google: null
   facebook: null
-favicon: null
-layout_spectrum: 1
